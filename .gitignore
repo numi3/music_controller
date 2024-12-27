@@ -1,0 +1,54 @@
+# General
+*.log
+*.pot
+*.py[cod]
+__pycache__/
+*.swp
+*.swo
+*.swn
+*~
+
+# Django
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+*.env
+.env.local
+.env.production
+.env.development
+.env.*
+venv/
+virtualenv/
+*.bak
+*.backup
+
+# Python
+*.pyc
+*.pyo
+.Python
+
+# Pipenv
+Pipfile.lock
+Pipfile
+
+# React
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.cache/
+*.log
+
+# JetBrains IDEs (PyCharm/WebStorm)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
